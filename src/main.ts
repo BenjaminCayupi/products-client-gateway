@@ -20,6 +20,6 @@ async function bootstrap() {
 
   logger.log(`Gateway running on port ${envs.port}`);
 
-  console.log('testing');
+  console.log('Health check added');
 }
 bootstrap();
